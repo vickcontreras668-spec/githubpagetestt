@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+</head>
+<body>
+    
+
+    body { font-family: Arial; margin: 20px; }
+    h1 { background:#0a4a8a; color:white; padding:10px; }
+    h2 { background:#0a4a8a; color:white; padding:6px; font-size:18px; }
+    .section { border:1px solid #0a4a8a; padding:10px; margin-bottom:20px; }
+    label { font-weight:bold; font-size:14px; }
+    input, select, textarea { width:100%; padding:6px; margin:4px 0 10px 0; }
+    .row { display:flex; gap:15px; }
+    .row div { flex:1; }
+    .checks { display:flex; gap:20px; margin:8px 0; }
+</style>
+</head>
+<body>
+
+<h1>SOLICITUD DE SERVICIO VETERINARIO</h1>
+
+<h2>DATOS DEL SERVICIO</h2>
+<div class="section">
+    <label>1- SERVICIO SOLICITADO</label>
+    <input type="text">
+
+    <label>2- HORARIO DISPONIBLE</label>
+    <div class="checks">
+        <label><input type="checkbox"> MAÑANA</label>
+        <label><input type="checkbox"> TARDE</label>
+        <label><input type="checkbox"> NOCHE</label>
+        <label><input type="checkbox"> SÁBADO</label>
+        <label><input type="checkbox"> DOMINGO</label>
+    </div>
+</div>
+
+<h2>DATOS DEL DUEÑO</h2>
+<div class="section">
+    <div class="row">
+        <div>
+            <label>3- APELLIDOS</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>4- NOMBRES</label>
+            <input type="text">
+        </div>
+    </div>
+
+    <label>5- APODO</label>
+    <input type="text">
+
+    <label>6- CÉDULA O PASAPORTE</label>
+    <input type="text">
+
+    <label>7- SEXO</label>
+    <div class="checks">
+        <label><input type="checkbox"> M</label>
+        <label><input type="checkbox"> F</label>
+    </div>
+
+    <label>8- ESTADO CIVIL</label>
+    <div class="checks">
+        <label><input type="checkbox"> SOLTERO/A</label>
+        <label><input type="checkbox"> CASADO/A</label>
+        <label><input type="checkbox"> DIVORCIADO/A</label>
+        <label><input type="checkbox"> UNIÓN LIBRE</label>
+    </div>
+
+    <label>9- DIRECCIÓN</label>
+    <input type="text">
+
+    <div class="row">
+        <div>
+            <label>10- PROVINCIA</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>11- CIUDAD</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>13- SECTOR/BARRIO</label>
+            <input type="text">
+        </div>
+    </div>
+
+    <label>14- TELÉFONOS</label>
+    <div class="row">
+        <div><label>Residencial</label><input type="text"></div>
+        <div><label>Móvil</label><input type="text"></div>
+        <div><label>Otro</label><input type="text"></div>
+    </div>
+
+    <label>18- CORREO ELECTRÓNICO</label>
+    <input type="email">
+
+    <label>19- ¿POSEE ALGUNA DISCAPACIDAD?</label>
+    <div class="checks">
+        <label><input type="checkbox"> SÍ</label>
+        <label><input type="checkbox"> NO</label>
+    </div>
+
+    <label>EN CASO AFIRMATIVO, ESPECIFIQUE CUÁL:</label>
+    <div class="checks">
+        <label><input type="checkbox"> AUDITIVA</label>
+        <label><input type="checkbox"> MOTRIZ</label>
+        <label><input type="checkbox"> VISUAL</label>
+        <label><input type="checkbox"> INTELECTUAL</label>
+    </div>
+</div>
+
+<h2>DATOS DE LA MASCOTA</h2>
+<div class="section">
+    <label>20- NOMBRE DE LA MASCOTA</label>
+    <input type="text">
+
+    <label>21- ESPECIE</label>
+    <input type="text">
+
+    <label>22- RAZA</label>
+    <input type="text">
+
+    <label>23- EDAD</label>
+    <input type="text">
+
+    <label>24- SEXO</label>
+    <div class="checks">
+        <label><input type="checkbox"> MACHO</label>
+        <label><input type="checkbox"> HEMBRA</label>
+    </div>
+
+    <label>25- ¿POSEE CONDICIONES MÉDICAS?</label>
+    <textarea rows="3"></textarea>
+</div>
+
+<h2>DATOS LABORALES DEL DUEÑO</h2>
+<div class="section">
+    <label>26- SITUACIÓN LABORAL</label>
+    <div class="checks">
+        <label><input type="checkbox"> EMPLEADO</label>
+        <label><input type="checkbox"> DESEMPLEADO</label>
+        <label><input type="checkbox"> TRABAJADOR POR CUENTA PROPIA</label>
+        <label><input type="checkbox"> BUSCANDO PRIMER EMPLEO</label>
+        <label><input type="checkbox"> TRABAJADOR EMPRESA FAMILIAR</label>
+    </div>
+
+    <label>27- NOMBRE DE LA EMPRESA</label>
+    <input type="text">
+
+    <label>28- TELÉFONO</label>
+    <input type="text">
+</div>
+
+<h2>INFORMACIONES IMPORTANTES</h2>
+<div class="section">
+    <p><strong>TODOS LOS SOLICITANTES</strong><br>
+    Deben anexar copia de su cédula o pasaporte.</p>
+
+    <p><strong>SOLICITANTES REMITIDOS POR EMPRESAS</strong><br>
+    Deben anexar constancia laboral.</p>
+
+    <p><strong>OTROS SERVICIOS</strong><br>
+    Presentar historial médico de la mascota.</p>
+</div>
+
+<h2>FIRMA</h2>
+<div class="section">
+    <label>Firma del solicitante</label>
+    <input type="text">
+</div>
+
+</body>
+</html>
+
+  
+
+   
+
+
+</body>
+</html>
